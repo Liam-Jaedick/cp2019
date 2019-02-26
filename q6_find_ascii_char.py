@@ -1,3 +1,3 @@
-i = int(input("number: "))
+i = int(input("Number: "))
 
 print(chr(i))
