@@ -1,4 +1,4 @@
-i = input("letter: ")
+i = input("Uppercase letter: ")
 
 n = ord(i) + 32
 
