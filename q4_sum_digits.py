@@ -1,7 +1,14 @@
-n = int(input("number: "))
-a=0
-while len(str(n))>1:
-    o = n%10
-    a = a+o
-    n = n//10
-print(a+n)
+num = int(input("Enter a number: "))
+
+sum = 0
+
+while num > 0:
+    d = num%10
+    num = num//10
+    sum += d
+    
+    # we can write above code in single line
+    # uncomment the below line and comment the above three lines
+    # num,sum = num//10,sum+(num%10)
+# printing the sum
+print("The sum of digits of number is",sum)
