@@ -1,5 +1,4 @@
-m = int(input("Distance in Miles: "))
-
+m = int(input("Distance in miles: "))
 k = m * 1.60934
 
-print("{:.3f}".format(k))
+print("Distance in kilometres:","{:.3f}".format(k))
