@@ -1,3 +1,3 @@
-fahrenheit = float(input("Temperature in fahrenheit: "))
 ctof = celsius = (5/9) * (fahrenheit - 32)
-print(ctof)
+fahrenheit = float(input("Temperature in Fahrenheit: "))
+print("Temperature in Celsius:",ctof)
