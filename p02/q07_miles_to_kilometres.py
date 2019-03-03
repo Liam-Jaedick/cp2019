@@ -1,5 +1,5 @@
 def mtokm(dist):
-    km = dist*1.609
+    km = dist * 1.609
     return "{:.3f}".format(km)
 
 print("Miles","Kilometers","Kilometres","Miles")
