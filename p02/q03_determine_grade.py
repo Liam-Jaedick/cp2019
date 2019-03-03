@@ -1,18 +1,17 @@
-score = int(input("Enter Number: "))
-
-if score<1 or score >100:
+score = int(input("Enter score: "))
+if score < 1 or score > 100:
     print("Invalid! Score must be within 0 - 100")
-elif 70<=score<= 100:
-    print("A")
-elif 60<=score<=69:
-    print("B")
-elif 55<=score<=59:
-    print("C")
-elif 50<=score<=54:
-    print("D")
-elif 45<=score<=49:
-    print("E")
-elif 35<=score<=44:
-    print("S")
+elif 70 <= score <= 100:
+    print("Grade: A")
+elif 60 <= score <= 69:
+    print("Grade: B")
+elif 55 <= score <= 59:
+    print("Grade: C")
+elif 50 <= score <= 54:
+    print("Grade: D")
+elif 45 <= score <= 49:
+    print("Grade: E")
+elif 35 <= score <= 44:
+    print("Grade: S")
 else:
-    print("U")
+    print("Grade: U")
